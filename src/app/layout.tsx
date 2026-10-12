@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Archivo, IBM_Plex_Mono, Instrument_Serif } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Footer } from "@/components/Footer";
 import { Providers } from "@/components/Providers";
 import { ScrollProgress } from "@/components/ScrollProgress";
@@ -72,6 +73,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <main id="main">{children}</main>
           <Footer />
         </Providers>
+        <SpeedInsights />
       </body>
     </html>
   );
