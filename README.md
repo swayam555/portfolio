@@ -15,7 +15,7 @@ Everything lives in `src/data/`:
 - `site.ts`: name, email, links, **SITE_URL** (set this to your domain)
 - `experience.ts`: Fidelity (9-system map), Marine Edge modules, education, certifications
 - `notes.ts`: the four "Field notes" engineering stories
-- `projects.ts`: 16 case studies (with diagram nodes) and the full 36-project index
+- `projects.ts`: 21 case studies (with diagram nodes) and the full 41-project index
 - `skills.ts`: the periodic table of the stack
 
 Themes: "Paper" (default) and "Blueprint", toggled in the top bar and remembered per visitor.

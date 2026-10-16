@@ -33,6 +33,10 @@ function Featured() {
           </Link>
         </Reveal>
       ))}
+      {/* Blank cells complete the last row, so the grid's ink background doesn't show through */}
+      {Array.from({ length: (4 - (caseStudies.length % 4)) % 4 }, (_, i) => (
+        <li key={`filler-${i}`} aria-hidden className={`${i < caseStudies.length % 2 ? "sm:block" : "xl:block"} hidden bg-card`} />
+      ))}
     </ul>
   );
 }
