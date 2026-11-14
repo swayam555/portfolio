@@ -6,7 +6,7 @@ export const site = {
   role: "Software Development Engineer",
   location: "Bengaluru, India",
   timezone: "Asia/Kolkata",
-  email: "swayambajpai666@gmail.com",
+  email: "swayambajpai333@gmail.com",
   phone: "+91 87077 05446",
   phoneHref: "tel:+918707705446",
   whatsapp: "https://wa.me/918707705446?text=Hi%20Swayam%2C%20I%20saw%20your%20portfolio",
