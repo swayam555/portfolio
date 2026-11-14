@@ -125,11 +125,16 @@ Case-study pages live at `/projects/<slug>/` (`src/app/projects/[slug]/page.tsx`
 - **Case study:** the decisions "Payments verified twice", "Server-authoritative progress" and "Less infrastructure" were replaced with front-end ones. Go and PostgreSQL left the stack, and the category is now "Front end". The architecture diagram still shows the Go API as context.
 - **Field note 4** is now about the Android player's save throttling, with an animation that matches it. Skill cells: Go no longer cites Marine Edge, and Oracle Cloud says "Marine Edge image storage".
 
-### v2.7: five Spring Boot case studies (current)
+### v2.7: five Spring Boot case studies
 - **New case studies:** Veil (AI data firewall), Foyer (fair virtual waiting room), FraudShield (UPI fraud and mule detection), GigPay (earned-wage payouts on a double-entry ledger) and SwiftKart (10-minute delivery). Each has an index row and a case-study page, and they appear first in the 2026 group.
 - **Sources:** every figure comes from that project's README and docs/TESTING.md in `~/Desktop/projects/<name>`. Repos are at `github.com/swayam555/<name>` in lowercase.
 - **Skills:** Java, Spring Boot, Angular, React, PostgreSQL, Redis, Kafka, Kubernetes, JUnit and Playwright now cite these projects.
 - **Grid:** with 21 case studies the 4-column grid had empty cells showing its ink background. `Featured` in `WorkIndex.tsx` now adds blank cells to complete the last row at 2 and 4 columns.
+
+### v2.8: eleven original projects replace the earlier ones (current)
+- Removed the TorrentShare, TorrentShare UI, IMS, Payeazie, MediSync, Repo Pilot, ClaimSense, Procuro, FinTrack and FinTafsir entries. Those GitHub repos are now private.
+- Added case studies and index rows for Swarmcast, Flarewatch, Paylane, Carenet, Opsflow, Logsift, Claimgate, Bidbench, Ledgerline, Spendly and Statemint, each linking to `github.com/swayam555/<slug>`. The content comes from each repo's README and test notes.
+- Skill cells point at the new projects. The TorrentShare Grafana screenshot was deleted.
 
 ### Test status (v2.1)
 181/181 automated browser checks pass on the production build, with no console or network errors. The checks cover:

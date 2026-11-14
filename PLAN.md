@@ -6,7 +6,7 @@
 The proof, in order of strength:
 1. Fidelity Investments (Plynk Invest): Spring Boot microservices on AWS EKS, plus the Angular account-opening rebuild.
 2. Marine Edge: a production edtech platform (Next.js web + an Angular app on Google Play) that I built end to end.
-3. Systems projects on github.com/swayam555: TorrentShare (formerly TorrentEdge), GraphEcomX, GoMicroHub, NexRule, DevLab.
+3. Systems projects on github.com/swayam555: Swarmcast, GraphEcomX, GoMicroHub, NexRule, DevLab.
 
 ## What the research says (patterns from 50+ engineer portfolios)
 Reference sites: brittanychiang.com, antfu.me, leerob.com, arpitbhayani.me, taniarascia.com, rauno.me, paco.me, joshwcomeau.com, lelandjansen.com, and the Colorlib and SiteBuilderReport roundups.
