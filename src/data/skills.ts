@@ -5,14 +5,14 @@ export type Element = { sym: string; name: string; group: Group; used: string };
 // A periodic table of the stack. "used" says where it was used, so every cell is backed by real work.
 export const elements: Element[] = [
   { sym: "Jv", name: "Java", group: "Language", used: "Fidelity services · Veil · Foyer · FraudShield · Carenet · Opsflow" },
-  { sym: "Ts", name: "TypeScript", group: "Language", used: "Plynk app · Marine Edge · Taska" },
-  { sym: "Js", name: "JavaScript", group: "Language", used: "Most Node projects · Claimgate" },
+  { sym: "Ts", name: "TypeScript", group: "Language", used: "Plynk app · Marine Edge · Handsel · Taska" },
+  { sym: "Js", name: "JavaScript", group: "Language", used: "Most Node projects · Saathi · Claimgate" },
   { sym: "Go", name: "Go", group: "Language", used: "GoMicroHub" },
-  { sym: "Py", name: "Python", group: "Language", used: "JobApp · RAG · Logwise · Ledgerline · Flarewatch" },
+  { sym: "Py", name: "Python", group: "Language", used: "Bolo · Kunji · JobApp · Ledgerline · Flarewatch" },
   { sym: "Sq", name: "SQL", group: "Language", used: "Oracle · PostgreSQL" },
 
   { sym: "Sb", name: "Spring Boot", group: "Back end", used: "9 Fidelity codebases · Veil · Foyer · FraudShield · GigPay · SwiftKart · Spendly" },
-  { sym: "Nd", name: "Node.js", group: "Back end", used: "Swarmcast · Paylane · Bidbench · GraphEcomX · Taska" },
+  { sym: "Nd", name: "Node.js", group: "Back end", used: "Handsel · Swarmcast · Paylane · Bidbench · Taska" },
   { sym: "Ex", name: "Express", group: "Back end", used: "DivvyMate · NexRule · FortFile" },
   { sym: "Gq", name: "GraphQL", group: "Back end", used: "GraphEcomX · GoMicroHub" },
   { sym: "Ws", name: "WebSockets", group: "Back end", used: "Real-time quotes · SkyMetrics · Flarewatch" },
