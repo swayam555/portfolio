@@ -131,11 +131,11 @@ Case-study pages live at `/projects/<slug>/` (`src/app/projects/[slug]/page.tsx`
 - **Skills:** Java, Spring Boot, Angular, React, PostgreSQL, Redis, Kafka, Kubernetes, JUnit and Playwright now cite these projects.
 - **Grid:** with 21 case studies the 4-column grid had empty cells showing its ink background. `Featured` in `WorkIndex.tsx` now adds blank cells to complete the last row at 2 and 4 columns.
 
-### v2.9: four desktop and self-hosted apps (current)
+### v2.9: three Linux desktop apps (current)
 
 Added case studies and index rows for Bolo (offline Hinglish voice typing), Kunji (on-screen keyboard that hides
-from screenshots), Saathi (meeting copilot for Linux) and Handsel (freelancer deal desk). All four repos are public
-under swayam555. Skills "used" text for TypeScript, JavaScript, Python and Node.js now names them.
+from screenshots) and Saathi (meeting copilot for Linux), all public under swayam555. Skills "used" text for
+JavaScript and Python names them. Handsel was added, then removed at the user's request (its repo is private).
 
 ### v2.8: eleven original projects replace the earlier ones
 - Removed the TorrentShare, TorrentShare UI, IMS, Payeazie, MediSync, Repo Pilot, ClaimSense, Procuro, FinTrack and FinTafsir entries. Those GitHub repos are now private.
